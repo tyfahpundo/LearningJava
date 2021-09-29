@@ -24,5 +24,9 @@ public class HashMapDemo {
         System.out.println(map.values());
 
         System.out.println(map.entrySet());
+
+        for(Object i: map.values()){
+            System.out.println(i);
+        }
     }
 }
